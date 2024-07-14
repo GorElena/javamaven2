@@ -6,6 +6,7 @@ public class SqrtServiceTest {
 
     @Test
     public void shouldCalcExact() {
+
         SqrtService service = new SqrtService();
         int income = 10_000;
         int expenses = 3_000;
@@ -14,8 +15,8 @@ public class SqrtServiceTest {
 
 
         Assertions.assertEquals(income, expenses, threshold);
-
     }
+
 
     @Test
     public void shouldCalcPact() {
